@@ -11,6 +11,15 @@
  to read it and output it to the terminal at 9600bps.
 */
 
+/* 
+10-21-2020
+Joel Aguirre
+Mexico
+
+Este codigo es una bifucarcion.
+
+*/
+
 void setup()
 {
   Serial.begin(9600);
@@ -21,7 +30,7 @@ void setup()
 
 void loop() 
 {
-  byte myValue = 0;
+  int myValue = 0;
   myValue = analogRead(A0);
   
   Serial.print("The value is: ");
